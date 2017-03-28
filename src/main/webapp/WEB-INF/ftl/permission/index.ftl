@@ -100,7 +100,7 @@
 				         		<a class="btn btn-success" onclick="$('#addPermission').modal();">增加权限</a>
 				         	</@shiro.hasPermission>
 				         	<@shiro.hasPermission name="/permission/deletePermissionById.shtml">
-				         		<button type="button" id="deleteAll" class="btn  btn-danger">Delete</button>
+				         		<button type="button" id="deleteAll" class="btn  btn-danger">删除</button>
 				         	</@shiro.hasPermission>
 				         </span>    
 				        </div>
@@ -161,8 +161,8 @@
 			        </form>
 			      </div>
 			      <div class="modal-footer">
-			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			        <button type="button" onclick="addPermission();" class="btn btn-primary">Save</button>
+			        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+			        <button type="button" onclick="addPermission();" class="btn btn-primary">保存</button>
 			      </div>
 			    </div>
 			  </div>

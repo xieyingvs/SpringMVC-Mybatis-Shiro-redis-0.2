@@ -26,7 +26,7 @@
 	    <property name="domain" value=".itboy.net"/>
 	     -->
 	</bean>
-	<!-- custom shiro session listener -->
+	<!-- custom shiro session listener 监听器 -->
 	<bean id="customSessionListener" class="com.sojson.core.shiro.listenter.CustomSessionListener">
 	    <property name="shiroSessionRepository" ref="jedisShiroSessionRepository"/>
 	</bean>

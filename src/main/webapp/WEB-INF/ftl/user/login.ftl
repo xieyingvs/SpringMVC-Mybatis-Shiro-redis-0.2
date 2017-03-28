@@ -156,7 +156,7 @@
                 <label><input type="checkbox" checked="checked"  id="rememberMe"style="width: 10px; height: 10px;">记住我</label>
                 </div>
                 <button type="button" id="login">登录</button>
-                <button type="button" id="register" class="register">Register</button>
+                <button type="button" id="register" class="register">注册</button>
                 <div class="connect" >
 	                <p>有问题请这样解决:</p>
 	                <p>
@@ -216,7 +216,7 @@
 			            return false;
 			        }
 			        var pswd = MD5(username +"#" + password),
-			        	data = {pswd:pswd,email:username,rememberMe:$("#rememberMe").is(':checked')};
+			        	data = {pswd:pswd,email:username,nickname:username,rememberMe:$("#rememberMe").is(':checked')};
 			        var load = layer.load();
 			        $.post("${basePath}/u/submitLogin.shtml",data ,function(result){
 			        	layer.close(load);

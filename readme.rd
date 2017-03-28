@@ -178,3 +178,10 @@ PS：你可以注册自己的帐号，然后用管理员赋权限给你自己的
 
 如果还是不能解决问题，请在官方群（群号：259217951）内搜索“jstl” 如图下载依赖包。
 
+本人备注：注意引用包的版本问题
+      如： mybatis-spring 版本不同,以下配置可能不同1.11
+      <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate"
+		  scope="prototype">
+		  <constructor-arg index="0" ref="sqlSessionFactory" />
+	  </bean>
+

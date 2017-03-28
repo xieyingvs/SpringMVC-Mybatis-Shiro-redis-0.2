@@ -25,18 +25,18 @@
 
     <body id="body">
         <div class="page-container" style="margin: 100px auto 0px;">
-            <h1>Register</h1>
+            <h1>注册</h1>
             <form id="_form" action="" method="post">
-                <input type="text" name="nickname" id="nickname" class="username" placeholder="Nickname">
-                <input type="text" name="email"  id="email" placeholder="Email Account">
-                <input type="password" name="pswd" id="password" class="password" placeholder="Password">
-                <input type="password" id="re_password"  placeholder="Repeat the password">
+                <input type="text" name="nickname" id="nickname" class="username" placeholder="用户名">
+                <input type="text" name="email"  id="email" placeholder="邮箱">
+                <input type="password" name="pswd" id="password" class="password" placeholder="密码">
+                <input type="password" id="re_password"  placeholder="确认密码">
                 <div style="text-align: left; margin-left: 10px;" id="vcode">
-	                <input type="text" name="vcode"   placeholder="Verification code" style="width: 110px; margin-left: -8px; margin-right: 8px;">
+	                <input type="text" name="vcode"   placeholder="请输入验证码" style="width: 110px; margin-left: -8px; margin-right: 8px;">
                 	<img src="${basePath}/open/getGifCode.shtml" />
                 </div>
-                <button type="button" class="register">Register</button>
-                <button type="button" id="login" >Login</button>
+                <button type="button" class="register">注册</button>
+                <button type="button" id="login" >登录</button>
                 <div class="error"><span>+</span></div>
             </form>
         </div>

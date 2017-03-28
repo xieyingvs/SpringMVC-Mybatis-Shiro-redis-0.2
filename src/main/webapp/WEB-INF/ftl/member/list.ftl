@@ -94,7 +94,7 @@
 					     <span class=""> <#--pull-right -->
 				         	<button type="submit" class="btn btn-primary">查询</button>
 				         	<@shiro.hasPermission name="/member/deleteUserById.shtml">
-				         		<button type="button" id="deleteAll" class="btn  btn-danger">Delete</button>
+				         		<button type="button" id="deleteAll" class="btn  btn-danger">删除</button>
 				         	</@shiro.hasPermission>
 				         </span>    
 				        </div>
